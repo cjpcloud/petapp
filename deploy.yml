@@ -1,6 +1,9 @@
 ---
 - hosts: dev
-  sudo: yes
+  become: yes
+  become_user: root
+  become_method: sudo
+    #sudo: yes
    #remote_user: root
   tasks:
    - name: create file
