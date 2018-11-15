@@ -505,6 +505,5 @@
    </profiles>
 
    <url>demopetclinic</url>
-  </plugins>
- </build>
+  
 </project>
