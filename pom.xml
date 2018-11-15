@@ -274,7 +274,8 @@
       <groupId>org.jacoco</groupId>
       <artifactId>jacoco-maven-plugin</artifactId>
       <version>0.6.4.201312101107</version>
-      
+              <executions>
+
         <execution>
           <id>post-unit-test</id>
           <phase>test</phase>
